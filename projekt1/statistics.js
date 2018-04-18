@@ -37,12 +37,12 @@ MongoClient.connect(replicaSet.url, function(err, db) {
 		dbc.aggregate(
 		  { $group: {_id: { year: "$year" } , crimesNumber: {$sum: "$value"}} },
 		  { $sort: {crimesNumber: asc} },
-		  { $limit: 8 }
+		  { $limit: 9 }
 		).toArray(function(err, result) {
 			if (err) throw err;
 			console.log("\nYears with the most crimes:");
 			console.log("--------------------------------------------------------------------");
-			for(let i=0; i<8; i++){ 
+			for(let i=0; i<9; i++){ 
 				console.log((i+1)+") Year: "+result[i]._id.year+"\t\tcrimes comitted: "+ result[i].crimesNumber);
 			}
 		});
