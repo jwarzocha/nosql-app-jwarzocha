@@ -1,0 +1,23 @@
+cd magsem4/app-cli-jwarzocha/skrypty/109/
+
+
+
+
+
+jwarzocha@linux-p109-19:~/magsem4/app-cli-jwarzocha/skrypty/109$ ./skrypt05.sh 
+2018-03-14T16:57:58.797+0100	connected to: carbon/10.10.5.113:27017,10.10.5.113:27018,10.10.5.113:27019
+2018-03-14T16:57:58.797+0100	dropping: test.testlondoncrimes
+2018-03-14T16:57:59.766+0100	imported 999 documents
+execution time was 1 s.
+
+
+
+
+
+
+2018-03-14T17:07:18.274+0100	[######################..] test.milionlondoncrimes	62.6MB/65.9MB (95.0%)
+2018-03-14T17:07:21.274+0100	[#######################.] test.milionlondoncrimes	63.9MB/65.9MB (96.9%)
+2018-03-14T17:07:24.274+0100	[#######################.] test.milionlondoncrimes	65.2MB/65.9MB (98.9%)
+2018-03-14T17:07:26.064+0100	[########################] test.milionlondoncrimes	65.9MB/65.9MB (100.0%)
+2018-03-14T17:07:26.065+0100	imported 999999 documents
+execution time was 161 s.

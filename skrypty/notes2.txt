@@ -1,0 +1,388 @@
+{ "w" : 1, "wtimeout" : 0 }
+
+18.00user 1.06system 0:48.08elapsed 39%CPU (0avgtext+0avgdata 12992maxresident)k
+28568inputs+0outputs (127major+1999minor)pagefaults 0swaps
+execution time was 48 s.
+
+18.18user 1.17system 1:26.07elapsed 22%CPU (0avgtext+0avgdata 10812maxresident)k
+0inputs+0outputs (1major+1980minor)pagefaults 0swaps
+execution time was 86 s.
+
+19.25user 1.42system 2:21.16elapsed 14%CPU (0avgtext+0avgdata 10940maxresident)k
+632inputs+0outputs (47major+2001minor)pagefaults 0swaps
+execution time was 141 s.
+
+18.79user 1.12system 1:28.86elapsed 22%CPU (0avgtext+0avgdata 12848maxresident)k
+16inputs+0outputs (2major+1950minor)pagefaults 0swaps
+execution time was 89 s.
+
+18.79user 1.12system 1:28.86elapsed 22%CPU (0avgtext+0avgdata 12848maxresident)k
+16inputs+0outputs (2major+1950minor)pagefaults 0swaps
+execution time was 89 s.
+
+
+=========================================================================
+{ w: 1, j: false }
+
+17.76user 1.18system 0:54.11elapsed 35%CPU (0avgtext+0avgdata 10952maxresident)k
+0inputs+0outputs (0major+1977minor)pagefaults 0swaps
+execution time was 54 s.
+
+18.84user 1.17system 2:10.02elapsed 15%CPU (0avgtext+0avgdata 10888maxresident)k
+0inputs+0outputs (0major+1974minor)pagefaults 0swaps
+execution time was 130 s.
+
+18.04user 1.12system 0:58.49elapsed 32%CPU (0avgtext+0avgdata 10884maxresident)k
+8inputs+0outputs (1major+1986minor)pagefaults 0swaps
+execution time was 58 s.
+
+20.06user 1.19system 2:26.98elapsed 14%CPU (0avgtext+0avgdata 13388maxresident)k
+8inputs+0outputs (1major+2067minor)pagefaults 0swaps
+execution time was 147 s.
+
+18.01user 1.04system 0:55.97elapsed 34%CPU (0avgtext+0avgdata 12872maxresident)k
+8inputs+0outputs (1major+1963minor)pagefaults 0swaps
+execution time was 56 s.
+
+=========================================================================
+{ w: 1, j: true }
+
+18.34user 1.11system 1:27.11elapsed 22%CPU (0avgtext+0avgdata 10948maxresident)k
+0inputs+0outputs (0major+1955minor)pagefaults 0swaps
+execution time was 87 s.
+
+18.78user 1.18system 2:01.84elapsed 16%CPU (0avgtext+0avgdata 11008maxresident)k
+0inputs+0outputs (0major+2001minor)pagefaults 0swaps
+execution time was 122 s.
+
+18.18user 1.21system 1:49.84elapsed 17%CPU (0avgtext+0avgdata 10980maxresident)k
+0inputs+0outputs (0major+1995minor)pagefaults 0swaps
+execution time was 110 s.
+
+18.10user 1.30system 1:32.38elapsed 21%CPU (0avgtext+0avgdata 11132maxresident)k
+8inputs+0outputs (1major+2056minor)pagefaults 0swaps
+execution time was 92 s.
+
+18.20user 1.14system 1:30.37elapsed 21%CPU (0avgtext+0avgdata 11384maxresident)k
+0inputs+0outputs (0major+2075minor)pagefaults 0swaps
+execution time was 90 s.
+=========================================================================
+{ w: 2, j: false }
+
+18.24user 1.04system 1:47.63elapsed 17%CPU (0avgtext+0avgdata 13280maxresident)k
+8inputs+0outputs (1major+2137minor)pagefaults 0swaps
+execution time was 107 s.
+
+18.40user 1.13system 2:45.03elapsed 11%CPU (0avgtext+0avgdata 12984maxresident)k
+8inputs+0outputs (1major+1998minor)pagefaults 0swaps
+execution time was 165 s.
+
+18.96user 1.28system 3:21.35elapsed 10%CPU (0avgtext+0avgdata 13856maxresident)k
+0inputs+0outputs (0major+1979minor)pagefaults 0swaps
+execution time was 201 s.
+
+18.84user 1.25system 2:34.24elapsed 13%CPU (0avgtext+0avgdata 10992maxresident)k
+8inputs+0outputs (1major+1977minor)pagefaults 0swaps
+execution time was 154 s.
+
+18.48user 1.13system 2:00.34elapsed 16%CPU (0avgtext+0avgdata 13112maxresident)k
+0inputs+0outputs (0major+1988minor)pagefaults 0swaps
+execution time was 121 s.
+
+=========================================================================
+{ w: 2, j: true }
+
+19.04user 1.29system 2:17.12elapsed 14%CPU (0avgtext+0avgdata 12964maxresident)k
+8inputs+0outputs (1major+1958minor)pagefaults 0swaps
+execution time was 137 s.
+
+19.19user 1.16system 2:57.71elapsed 11%CPU (0avgtext+0avgdata 13052maxresident)k
+16inputs+0outputs (2major+1994minor)pagefaults 0swaps
+execution time was 177 s.
+
+18.44user 1.35system 3:39.54elapsed 9%CPU (0avgtext+0avgdata 13080maxresident)k
+0inputs+0outputs (0major+2005minor)pagefaults 0swaps
+execution time was 219 s.
+
+18.43user 1.17system 2:41.18elapsed 12%CPU (0avgtext+0avgdata 13108maxresident)k
+0inputs+0outputs (0major+2011minor)pagefaults 0swaps
+execution time was 161 s.
+
+18.25user 1.20system 2:12.84elapsed 14%CPU (0avgtext+0avgdata 11136maxresident)k
+0inputs+0outputs (0major+2031minor)pagefaults 0swaps
+execution time was 133 s.
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+{w:1,j:false,wtimeout:500}
+
+2018-04-01T23:43:45.236+0200	dropping: test.pomorskie
+1.25user 0.11system 0:02.56elapsed 53%CPU (0avgtext+0avgdata 1620maxresident)k
+49152inputs+0outputs (0major+155minor)pagefaults 0swaps
+2018-04-01T23:43:48.233+0200	test.pomorskie	257MB
+2018-04-01T23:43:51.233+0200	test.pomorskie	257MB
+2018-04-01T23:43:54.233+0200	test.pomorskie	257MB
+2018-04-01T23:43:57.762+0200	test.pomorskie	257MB
+2018-04-01T23:44:11.346+0200	test.pomorskie	257MB
+2018-04-01T23:44:11.613+0200	test.pomorskie	257MB
+2018-04-01T23:44:13.069+0200	test.pomorskie	257MB
+fatal error: runtime: out of memory
+
+execution time was 36 s.
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+{w:1,j:true,wtimeout:500}
+
+2018-04-01T23:47:35.495+0200	dropping: test.pomorskie
+1.26user 0.12system 0:02.76elapsed 50%CPU (0avgtext+0avgdata 1624maxresident)k
+59624inputs+0outputs (1major+156minor)pagefaults 0swaps
+2018-04-01T23:47:38.381+0200	test.pomorskie	257MB
+2018-04-01T23:47:41.381+0200	test.pomorskie	257MB
+2018-04-01T23:47:44.381+0200	test.pomorskie	257MB
+2018-04-01T23:47:47.381+0200	test.pomorskie	257MB
+fatal error: runtime: out of memory
+
+execution time was 17 s.
+
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{ "w" : 1, "wtimeout" : 0 }
+
+2018-04-02T20:28:36.110+0200	test.pomorskie	79.6MB
+1.36user 0.13system 1:00.62elapsed 2%CPU (0avgtext+0avgdata 1832maxresident)k
+8inputs+0outputs (0major+150minor)pagefaults 0swaps
+2018-04-02T20:28:36.736+0200	test.pomorskie	80.2MB
+2018-04-02T20:28:36.736+0200	imported 364887 documents
+execution time was 61 s.
+
+
+2018-04-02T20:32:55.269+0200	test.pomorskie	80.0MB
+1.50user 0.25system 1:24.20elapsed 2%CPU (0avgtext+0avgdata 1732maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+2018-04-02T20:32:55.541+0200	test.pomorskie	80.2MB
+2018-04-02T20:32:55.541+0200	imported 364887 documents
+execution time was 84 s.
+
+
+2018-04-02T20:34:24.662+0200	test.pomorskie	77.7MB
+1.41user 0.12system 1:05.21elapsed 2%CPU (0avgtext+0avgdata 1668maxresident)k
+0inputs+0outputs (0major+145minor)pagefaults 0swaps
+2018-04-02T20:34:26.981+0200	test.pomorskie	80.2MB
+2018-04-02T20:34:26.981+0200	imported 364887 documents
+execution time was 65 s.
+
+
+2018-04-02T20:38:36.017+0200	test.pomorskie	78.3MB
+1.47user 0.14system 1:16.54elapsed 2%CPU (0avgtext+0avgdata 1744maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+2018-04-02T20:38:37.667+0200	test.pomorskie	80.2MB
+2018-04-02T20:38:37.667+0200	imported 364887 documents
+execution time was 76 s.
+
+
+1.46user 0.16system 1:12.79elapsed 2%CPU (0avgtext+0avgdata 1744maxresident)k
+0inputs+0outputs (0major+150minor)pagefaults 0swaps
+2018-04-02T20:40:12.520+0200	test.pomorskie	80.2MB
+2018-04-02T20:40:12.521+0200	imported 364887 documents
+execution time was 73 s.
+
+
+=========================================================================
+{ w: 1, j: false }
+
+2018-04-02T20:44:58.328+0200	test.pomorskie	77.9MB
+1.41user 0.15system 1:04.81elapsed 2%CPU (0avgtext+0avgdata 1700maxresident)k
+0inputs+0outputs (0major+145minor)pagefaults 0swaps
+2018-04-02T20:45:00.229+0200	test.pomorskie	80.2MB
+2018-04-02T20:45:00.229+0200	imported 364887 documents
+execution time was 65 s.
+
+
+2018-04-02T20:48:20.095+0200	test.pomorskie	79.0MB
+1.53user 0.14system 1:15.97elapsed 2%CPU (0avgtext+0avgdata 1804maxresident)k
+0inputs+0outputs (0major+152minor)pagefaults 0swaps
+2018-04-02T20:48:21.119+0200	test.pomorskie	80.2MB
+2018-04-02T20:48:21.119+0200	imported 364887 documents
+execution time was 76 s.
+
+
+2018-04-02T20:49:45.691+0200	test.pomorskie	79.6MB
+1.49user 0.17system 1:15.61elapsed 2%CPU (0avgtext+0avgdata 1680maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+2018-04-02T20:49:46.460+0200	test.pomorskie	80.2MB
+2018-04-02T20:49:46.460+0200	imported 364887 documents
+execution time was 76 s.
+
+
+2018-04-02T20:52:02.436+0200	test.pomorskie	79.0MB
+1.56user 0.22system 1:28.64elapsed 2%CPU (0avgtext+0avgdata 1672maxresident)k
+0inputs+0outputs (0major+145minor)pagefaults 0swaps
+2018-04-02T20:52:04.272+0200	test.pomorskie	80.2MB
+2018-04-02T20:52:04.273+0200	imported 364887 documents
+execution time was 89 s.
+
+
+2018-04-02T20:54:11.288+0200	test.pomorskie	79.3MB
+1.58user 0.21system 1:27.82elapsed 2%CPU (0avgtext+0avgdata 1836maxresident)k
+0inputs+0outputs (0major+149minor)pagefaults 0swaps
+2018-04-02T20:54:12.237+0200	test.pomorskie	80.2MB
+2018-04-02T20:54:12.237+0200	imported 364887 documents
+execution time was 88 s.
+
+
+=========================================================================
+{ w: 1, j: true }
+
+2018-04-02T20:59:17.161+0200	test.pomorskie	78.7MB
+1.51user 0.19system 1:19.27elapsed 2%CPU (0avgtext+0avgdata 1796maxresident)k
+0inputs+0outputs (0major+154minor)pagefaults 0swaps
+2018-04-02T20:59:18.541+0200	test.pomorskie	80.2MB
+2018-04-02T20:59:18.541+0200	imported 364887 documents
+execution time was 79 s.
+
+
+2018-04-02T21:01:09.456+0200	test.pomorskie	79.4MB
+1.43user 0.18system 1:12.71elapsed 2%CPU (0avgtext+0avgdata 1744maxresident)k
+0inputs+0outputs (0major+151minor)pagefaults 0swaps
+2018-04-02T21:01:10.283+0200	test.pomorskie	80.2MB
+2018-04-02T21:01:10.283+0200	imported 364887 documents
+execution time was 73 s.
+
+2018-04-02T21:03:10.050+0200	test.pomorskie	79.0MB
+1.53user 0.27system 1:28.22elapsed 2%CPU (0avgtext+0avgdata 1760maxresident)k
+0inputs+0outputs (0major+150minor)pagefaults 0swaps
+2018-04-02T21:03:11.595+0200	test.pomorskie	80.2MB
+2018-04-02T21:03:11.595+0200	imported 364887 documents
+execution time was 88 s.
+
+2018-04-02T21:05:43.037+0200	test.pomorskie	80.0MB
+1.66user 0.20system 1:36.14elapsed 1%CPU (0avgtext+0avgdata 1816maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+2018-04-02T21:05:43.292+0200	test.pomorskie	80.2MB
+2018-04-02T21:05:43.292+0200	imported 364887 documents
+execution time was 96 s.
+
+
+2018-04-02T21:07:08.906+0200	test.pomorskie	77.5MB
+1.52user 0.18system 1:20.99elapsed 2%CPU (0avgtext+0avgdata 1748maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+2018-04-02T21:07:11.908+0200	test.pomorskie	80.2MB
+2018-04-02T21:07:12.025+0200	test.pomorskie	80.2MB
+2018-04-02T21:07:12.025+0200	imported 364887 documents
+execution time was 82 s.
+
+
+=========================================================================
+{ w: 2, j: false }
+2018-04-02T21:10:40.993+0200	test.pomorskie	79.6MB
+1.55user 0.19system 1:30.69elapsed 1%CPU (0avgtext+0avgdata 1844maxresident)k
+0inputs+0outputs (0major+147minor)pagefaults 0swaps
+2018-04-02T21:10:41.773+0200	test.pomorskie	80.2MB
+2018-04-02T21:10:41.773+0200	imported 364887 documents
+execution time was 91 s.
+
+2018-04-02T21:12:32.950+0200	test.pomorskie	77.7MB
+1.61user 0.20system 1:32.74elapsed 1%CPU (0avgtext+0avgdata 1736maxresident)k
+0inputs+0outputs (0major+150minor)pagefaults 0swaps
+2018-04-02T21:12:35.823+0200	test.pomorskie	80.2MB
+2018-04-02T21:12:35.823+0200	imported 364887 documents
+execution time was 93 s.
+
+
+2018-04-02T21:21:28.276+0200	test.pomorskie	79.4MB
+1.37user 0.15system 1:03.61elapsed 2%CPU (0avgtext+0avgdata 1832maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+2018-04-02T21:21:28.997+0200	test.pomorskie	80.2MB
+2018-04-02T21:21:28.997+0200	imported 364887 documents
+execution time was 64 s.
+
+
+2018-04-02T21:38:12.638+0200	test.pomorskie	77.9MB
+1.41user 0.12system 1:02.07elapsed 2%CPU (0avgtext+0avgdata 1848maxresident)k
+0inputs+0outputs (0major+149minor)pagefaults 0swaps
+2018-04-02T21:38:14.804+0200	test.pomorskie	80.2MB
+2018-04-02T21:38:14.804+0200	imported 364887 documents
+execution time was 62 s.
+
+
+2018-04-02T21:40:02.974+0200	test.pomorskie	76.8MB
+1.40user 0.12system 1:02.38elapsed 2%CPU (0avgtext+0avgdata 1848maxresident)k
+0inputs+0outputs (0major+150minor)pagefaults 0swaps
+2018-04-02T21:40:05.472+0200	test.pomorskie	80.2MB
+2018-04-02T21:40:05.472+0200	imported 364887 documents
+execution time was 63 s.
+
+=========================================================================
+{ w: 2, j: true }
+
+2018-04-02T21:44:19.365+0200	test.pomorskie	79.2MB
+1.36user 0.17system 0:57.78elapsed 2%CPU (0avgtext+0avgdata 1756maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+2018-04-02T21:44:20.241+0200	test.pomorskie	80.2MB
+2018-04-02T21:44:20.241+0200	imported 364887 documents
+execution time was 58 s.
+
+
+2018-04-02T21:48:34.589+0200	test.pomorskie	77.2MB
+1.44user 0.09system 0:59.23elapsed 2%CPU (0avgtext+0avgdata 1800maxresident)k
+0inputs+0outputs (0major+150minor)pagefaults 0swaps
+2018-04-02T21:48:36.921+0200	test.pomorskie	80.2MB
+2018-04-02T21:48:36.921+0200	imported 364887 documents
+execution time was 59 s.
+
+
+2018-04-02T21:52:46.742+0200	test.pomorskie	79.6MB
+1.43user 0.13system 1:00.64elapsed 2%CPU (0avgtext+0avgdata 1816maxresident)k
+0inputs+0outputs (0major+152minor)pagefaults 0swaps
+2018-04-02T21:52:47.477+0200	test.pomorskie	80.2MB
+2018-04-02T21:52:47.477+0200	imported 364887 documents
+execution time was 61 s.
+
+
+2018-04-02T22:01:51.581+0200	test.pomorskie	76.4MB
+1.35user 0.17system 0:56.86elapsed 2%CPU (0avgtext+0avgdata 1748maxresident)k
+0inputs+0outputs (0major+146minor)pagefaults 0swaps
+2018-04-02T22:01:54.532+0200	test.pomorskie	80.2MB
+2018-04-02T22:01:54.532+0200	imported 364887 documents
+execution time was 57 s.
+
+
+2018-04-02T22:06:12.392+0200	test.pomorskie	77.9MB
+1.56user 0.18system 1:14.56elapsed 2%CPU (0avgtext+0avgdata 1744maxresident)k
+0inputs+0outputs (0major+149minor)pagefaults 0swaps
+2018-04-02T22:06:15.174+0200	test.pomorskie	80.2MB
+2018-04-02T22:06:15.174+0200	imported 364887 documents
+execution time was 75 s.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
