@@ -331,6 +331,7 @@ Years with the most crimes:
 6) Year: 2009		crimes comitted: 52304
 7) Year: 2010		crimes comitted: 52094
 8) Year: 2013		crimes comitted: 51281
+9) Year: 2014		crimes comitted: 49363
 ```
 Skrypt wprowadza nowe dane z plików o takiej samej strukturze jak w pliku data.js:
 ```sh
