@@ -183,9 +183,94 @@ Skrypt podaje ile rekordów znajduje się w bazie i podaje przykładowy rekord:
 ```sh
 $ node sample_and_record_count.js
 ```
+```sh
+			Number of records: 1000000
+
+			Sample record:
+
+{ _id: 5ad7a9d440139fb50cc99d45,
+  lsoa_code: 'E01001116',
+  borough: 'Croydon',
+  major_category: 'Burglary',
+  minor_category: 'Burglary in Other Buildings',
+  value: 0,
+  year: 2016,
+  month: 11 }
+```
 Skrypt podaje top 10 najczęściej występujących przestępstw w danym roku posortowanych po ilości wystąpień i miesiącu:
 ```sh
 $ node top_10_crimes_by_month.js 2016
+```
+```sh
+1)	borough:				Westminster
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	112
+	year:					2016
+	month:					February
+
+2)	borough:				Westminster
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	104
+	year:					2016
+	month:					May
+
+3)	borough:				Westminster
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	103
+	year:					2016
+	month:					September
+
+4)	borough:				Westminster
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	98
+	year:					2016
+	month:					August
+
+5)	borough:				Westminster
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	78
+	year:					2016
+	month:					September
+
+6)	borough:				Westminster
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	74
+	year:					2016
+	month:					February
+
+7)	borough:				Hillingdon
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	74
+	year:					2016
+	month:					August
+
+8)	borough:				Newham
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	65
+	year:					2016
+	month:					October
+
+9)	borough:				Westminster
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	64
+	year:					2016
+	month:					November
+
+10)	borough:				Westminster
+	major_category:				Theft and Handling
+	major_category:				Theft and Handling
+	number_occurences_in_month(value):	63
+	year:					2016
+	month:					June
 ```
 Skrypt podaje:
  - Top 5 przestępstw w dzielnicach Londynu
@@ -194,19 +279,103 @@ Skrypt podaje:
 ```sh
 $ node statistics.js
 ```
+```sh
+Top 5 crimes London Districts:
+--------------------------------------------------------------------
+1) Districts: Westminster
+   crimes comitted: 32515
+
+2) Districts: Lambeth
+   crimes comitted: 21614
+
+3) Districts: Southwark
+   crimes comitted: 20592
+
+4) Districts: Camden
+   crimes comitted: 19793
+
+5) Districts: Newham
+   crimes comitted: 19755
+
+
+Top 5 crimes London Districts by categories:
+--------------------------------------------------------------------
+1) Districts: Westminster
+   category: Theft and Handling
+   crimes comitted: 19713
+
+2) Districts: Camden
+   category: Theft and Handling
+   crimes comitted: 10033
+
+3) Districts: Southwark
+   category: Theft and Handling
+   crimes comitted: 8225
+
+4) Districts: Newham
+   category: Theft and Handling
+   crimes comitted: 8162
+
+5) Districts: Lambeth
+   category: Theft and Handling
+   crimes comitted: 8130
+
+
+Years with the most crimes:
+--------------------------------------------------------------------
+1) Year: 2012		crimes comitted: 55261
+2) Year: 2016		crimes comitted: 54722
+3) Year: 2008		crimes comitted: 54220
+4) Year: 2015		crimes comitted: 53400
+5) Year: 2011		crimes comitted: 52917
+6) Year: 2009		crimes comitted: 52304
+7) Year: 2010		crimes comitted: 52094
+8) Year: 2013		crimes comitted: 51281
+```
 Skrypt wprowadza nowe dane z plików o takiej samej strukturze jak w pliku data.js:
 ```sh
 $ node insert.js ./data.js
+```
+```sh
+insert success
+
+{ '0': '1234a', '1': '1234b' }
 ```
 Skrypt aktualizuje dane wprowadzone poprzednim skryptem:
 ```sh
 $ node update.js
 ```
+```sh
+Before update: 
+
+[ { _id: '1234b',
+    lsoa_code: 'E01003078',
+    borough: 'Lambeth',
+    major_category: 'Burglary',
+    minor_category: 'Burglary in Other Buildings',
+    value: 3,
+    year: 2017,
+    month: 1 } ]
+
+
+After update: 
+
+[ { _id: '1234b',
+    lsoa_code: 'E01003078',
+    borough: 'Lambeth',
+    major_category: 'GTA',
+    minor_category: 'Grand Theft Auto',
+    value: 3,
+    year: 2018,
+    month: 2 } ]
+```
 Skrypt usuwa dane wprowadzone skrytpem insert.js:
 ```sh
 $ node delete.js
 ```
-
+```sh
+delete success
+```
 
 #### git sizer
 ```sh
